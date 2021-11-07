@@ -440,7 +440,7 @@ button {
 .trick__content {
   position: relative;
   background: var(--container-color);
-  border-radius: 1rem;
+  border-radius: 2.5rem;
   padding: 1.5rem 0 1rem 0;
   text-align: center;
   overflow: hidden;
@@ -745,8 +745,7 @@ button {
 
 /*=============== SCROLL BAR ===============*/
 ::-webkit-scrollbar {
-  width: 0.6rem;
-  background: #413e3e;
+  width: 0.75rem;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -851,7 +850,7 @@ button {
   }
 
   .trick__container {
-    grid-template-columns: repeat(3, 200px);
+    grid-template-columns: repeat(4, 20vw);
     justify-content: center;
     gap: 2rem;
   }
