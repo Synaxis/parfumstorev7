@@ -121,7 +121,6 @@ button {
 }
 
 .section__title {
-  font-size: var(--h2-font-size);
   margin-bottom: var(--mb-2);
   text-align: center;
 }
@@ -441,7 +440,7 @@ button {
   position: relative;
   background: var(--container-color);
   border-radius: 2.5rem;
-  padding: 1.5rem 0 1rem 0;
+  padding: 0.9rem 0 1rem 0;
   text-align: center;
   overflow: hidden;
 }
