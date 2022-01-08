@@ -10,12 +10,8 @@
   --title-color: hsl(var(--hue), 4%, 100%);
   --text-color: hsl(var(--hue), 4%, 85%);
   --text-color-light: hsl(var(--hue), 4%, 55%);
-  --body-color: linear-gradient( 90deg, hsl(248deg 100% 8%) 0%, #0077b6 100% );
-  
-  --container-color: linear-gradient( 136deg, hsl(0deg 0% 56%) 0%, hsl(0deg 0% 59%) 100% );
-  /*Red gradient*/
-  /* --body-color: linear-gradient(90deg, hsl(360, 28%, 40%) 0%, hsl(18, 28%, 40%) 100%);
-  --container-color: linear-gradient(136deg, hsl(360, 28%, 35%) 0%, hsl(18, 28%, 35%) 100%); */
+  --body-color: linear-gradient(90deg, hsl(0deg 77% 44%) 0%, hsl(18, 28%, 40%) 100%);
+  --container-color: linear-gradient(136deg, hsl(360, 28%, 35%) 0%, hsl(18deg 23% 70%) 100%); */
 
   /*Black solid*/
   /* --body-color: hsl(30, 8%, 8%);
@@ -121,6 +117,7 @@ button {
 }
 
 .section__title {
+  font-size: var(--h2-font-size);
   margin-bottom: var(--mb-2);
   text-align: center;
 }
@@ -439,8 +436,8 @@ button {
 .trick__content {
   position: relative;
   background: var(--container-color);
-  border-radius: 2.5rem;
-  padding: 0.9rem 0 1rem 0;
+  border-radius: 1rem;
+  padding: 1.5rem 0 1rem 0;
   text-align: center;
   overflow: hidden;
 }
@@ -744,7 +741,8 @@ button {
 
 /*=============== SCROLL BAR ===============*/
 ::-webkit-scrollbar {
-  width: 0.75rem;
+  width: 0.6rem;
+  background: #413e3e;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -849,7 +847,7 @@ button {
   }
 
   .trick__container {
-    grid-template-columns: repeat(4, 20vw);
+    grid-template-columns: repeat(3, 200px);
     justify-content: center;
     gap: 2rem;
   }
