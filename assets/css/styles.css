@@ -75,6 +75,11 @@ html {
   scroll-behavior: smooth;
 }
 
+
+nav.nav.container {
+   margin-top: -10px;
+}
+
 body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
@@ -130,6 +135,7 @@ button {
 /*=============== LAYOUT ===============*/
 .container {
   max-width: 968px;
+  margin-bottom: -60px;
   margin-left: var(--mb-1-5);
   margin-right: var(--mb-1-5);
 }
@@ -148,7 +154,7 @@ button {
   background: var(--body-color);
   position: fixed;
   top: 0;
-  height: 4vh;
+  height: 6.5vh;
   font-size: 1.5em !important;
   left: 0;
   z-index: var(--z-fixed);
@@ -272,7 +278,7 @@ button {
 }
 
 .home__img {
-  height: 250px;
+  height: 150px;
   justify-self: center;
 }
 
@@ -833,7 +839,7 @@ button {
     gap: 4rem;
   }
   .home__img {
-    height: 300px;
+    height: 30vw;
   }
   .swiper-pagination {
     margin-top: var(--mb-2);
