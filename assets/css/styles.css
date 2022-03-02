@@ -41,7 +41,7 @@ div.swiper-wrapper {
   --mb-0-5: 0.5rem;
   --mb-0-75: 0.75rem;
   --mb-1: 1rem;
-  --mb-1-5: 1.5rem;
+  --mb-1-5: 1.0rem;
   --mb-2: 2rem;
   --mb-2-5: 2.5rem;
 
@@ -66,7 +66,7 @@ div.swiper-wrapper {
 /*=============== BASE ===============*/
 * {
   box-sizing: border-box;
-  padding: 0;
+  /* padding: 0; */
   margin: 0;
   border: 0;
 }
@@ -124,6 +124,7 @@ button {
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
   padding: 4.5rem 0 2rem;
+  margin-top: 2.5vh;
 }
 
 .section__title {
@@ -172,6 +173,7 @@ button {
   display: flex;
   align-items: center;
   column-gap: 0.5rem;
+  font-size: 1.4em;
   font-weight: var(--font-medium);
 }
 
@@ -265,13 +267,13 @@ button {
 
 /*=============== HOME ===============*/
 .home__content {
-  row-gap: 1rem;
+  /* row-gap: 1rem; */
 }
 
 .home__group {
-  display: flex;
+  /* display: flex; */
   position: relative;
-  padding-top: 2rem;
+  /* padding-top: 2rem; */
   margin-bottom: 0;
   justify-content: space-evenly;
   align-items: flex-end;
@@ -836,7 +838,7 @@ button {
   .home__content {
     /* padding: 8rem 0 2rem; */
     /* grid-template-columns: repeat(2, 1fr); */
-    gap: 4rem;
+    gap: 2rem;
   }
   .home__img {
     height: 30vw;
@@ -920,7 +922,7 @@ button {
     padding-top: 0;
   }
   .home__img {
-    height: 400px;
+    height: 340px;
     transform: translateY(-3rem);
   }
   .home__indicator {
